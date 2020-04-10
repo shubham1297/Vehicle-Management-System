@@ -25,11 +25,11 @@
     </tr>
     <tr>
         <td>
-            2.Databse Connectivity:-Sahil Jaswal</td>
+            2.Databse Creation:-Sahil Jaswal</td>
     </tr>
     <tr>
         <td>
-            3.Database Creation:-Ashish Pareek</td>
+            3.Database Connectivity:-Ashish Pareek</td>
     </tr>
     <tr>
         <td>
