@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<head>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style10
+        {
+            width: 58%;
+            height: 129px;
+        }
+        .style8
+        {
+            width: 699px;
+        }
+        .style11
+        {
+            color: #FFFFFF;
+        }
+        .auto-style1 {
+            width: 305px;
+        }
+        .auto-style4 {
+            width: 451%;
+            height: 224px;
+        }
+        .auto-style5 {
+            width: 232px;
+            height: 285px;
+        }
+        </style>
+</head>
+<body style="background-color: #EFD9A8"></body>
+    <form id="form1" runat="server">
+    <table class="style1">
+        <tr>
+            <td class="auto-style1">
+                <img class="auto-style5" src="Images/download.png" />
+            </td>
+            <td>
+                <h1 style="color:red;font-size:80px">Vehicle Management System</h1></td>
+        </tr>
+        </table>
+    <table class="style1">
+        <tr>
+            <td>
+                <table class="style1">
+                    <tr>
+                        <td bgcolor="Red" class="style8" colspan="1" dir="ltr" 
+                            style="background-color: #990000; border-color: #FFFFFF; text-align: right;">
+                            <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" 
+                                CssClass="style11" PostBackUrl="~/Home.aspx" style="color: #FFFFFF">Home</asp:LinkButton>
+                            &nbsp;&nbsp;
+                            <asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" 
+                                CssClass="style11" PostBackUrl="~/About_Us.aspx" style="color: #FFFFFF">About Us</asp:LinkButton>
+                            &nbsp;&nbsp;
+                            <asp:LinkButton ID="LinkButton3" runat="server" CausesValidation="False" 
+                                CssClass="style11" PostBackUrl="~/Contact Us.aspx" style="color: #FFFFFF">Contact Us</asp:LinkButton>
+                            &nbsp;&nbsp;
+                            <asp:LinkButton ID="LinkButton4" runat="server" CausesValidation="False" 
+                                CssClass="style11" PostBackUrl="~/Login.aspx" style="color: #FFFFFF">Customer Login</asp:LinkButton>
+                            &nbsp;&nbsp;
+                            <asp:LinkButton ID="LinkButton5" runat="server" CausesValidation="False" 
+                                CssClass="style11" PostBackUrl="~/AdminLogin.aspx" style="color: #FFFFFF">Admin Login</asp:LinkButton>
+                            &nbsp;&nbsp;
+                            <asp:LinkButton ID="LinkButton6" runat="server" CausesValidation="False" 
+                                CssClass="style11" PostBackUrl="~/Login.aspx">Logout</asp:LinkButton>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: #990000">
+                &nbsp; <span class="style11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;</td>
+        </tr>
+        </table>
+        <table class="style1">
+        <tr>
+            <td class="auto-style1">
+                <div style="flex-align:center;">
+<img alt="" style="width:800px;" class="auto-style4" src="Images/allbus.jpeg" />
+                    </div>
+            </td></table>
+
+
+    </form>

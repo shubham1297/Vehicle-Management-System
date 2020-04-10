@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="AdminMaster" MasterPageFile="~/MasterPage.master"%>
+
+<asp:Content ID="Content1" runat="server" 
+    contentplaceholderid="ContentPlaceHolder1">
+    <table id="table1" border="0" cellpadding="10" cellspacing="0" width="985">
+        <tr>
+            <td align="center" class="style2" style="width: 131px" valign="top">
+                <table class="style1">
+                    <tr>
+                        <td style="color: #800000; background-color: #006600">
+                            <asp:LinkButton ID="LinkButton10" runat="server" 
+                                PostBackUrl="~/AddVehicle.aspx" style="color: #FFFFFF" >Vehicles Record</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600; height: 23px;">
+                            <asp:LinkButton ID="LinkButton9" runat="server" PostBackUrl="~/AddVendor.aspx" 
+                                style="color: #FFFFFF" >Drivers Record</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            <asp:LinkButton ID="LinkButton23" runat="server" 
+                                PostBackUrl="~/AddRoute.aspx" style="color: #FFFFFF" >Route Record</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            <asp:LinkButton ID="LinkButton8" runat="server" 
+                                PostBackUrl="~/AddCustomer.aspx" style="color: #FFFFFF">Customers Record</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            <asp:LinkButton ID="LinkButton16" runat="server" 
+                                PostBackUrl="~/ViewFeedback.aspx" style="color: #FFFFFF">Feedbacks</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+            <td style="color: #FFCCFF" valign="top" width="705">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    </asp:Content>
+
+

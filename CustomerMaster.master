@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CustomerMaster.master.cs" Inherits="CustomerMaster" MasterPageFile="~/MasterPage.master"%>
+
+
+<asp:Content ID="Content1" runat="server" 
+    contentplaceholderid="ContentPlaceHolder1">
+    <table id="table1" border="0" cellpadding="10" cellspacing="0" width="985">
+        <tr>
+            <td align="center" class="style2" style="width: 131px" valign="top">
+                <table class="style1">
+                    <tr>
+                        <td style="background-color: #006600">
+                            <asp:LinkButton ID="Feedback" runat="server" CausesValidation="False" 
+                                CssClass="style11" onclick="Feedback_Click" PostBackUrl="~/Feedback.aspx">Feedback</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            <asp:LinkButton ID="Status" runat="server" CausesValidation="False" 
+                                CssClass="style11" onclick="Status_Click1">Status</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 23px; background-color: #006600">
+                            <asp:LinkButton ID="LinkButton_Ch_Pass" runat="server" CausesValidation="False" 
+                                CssClass="style11" onclick="LinkButton_Ch_Pass_Click">Change Password</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="height: 23px; background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #006600">
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+            <td style="color: #FFCCFF" valign="top" width="705">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    <asp:Label ID="Label_welcom" runat="server" Font-Bold="True" Font-Size="Medium" 
+                        ForeColor="#9900FF" Text="Welcome..."></asp:Label>
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+</asp:Content>
+
+
+
